@@ -209,3 +209,13 @@ normally do not stop the conversion as long as the material can still be resolve
 - USD joints connected directly to the world are not used as articulation edges; the converter creates a separate `world` link.
 - URDF/RViz cannot represent the full USD PBR material model. Diffuse textures are prioritized, while additional material information is stored in the report.
 - Very large scenes may generate large OBJ/STL files and require more time to convert and load.
+
+## Demo
+
+### Full Scene
+
+![Full Scene](media/Full-Scene.gif)
+
+### Articulated Object
+
+![Articulated Object](media/Articulated-Object.gif)
